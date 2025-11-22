@@ -1,6 +1,10 @@
 # COS781-data-mining-group-project
 # Semantic Feature Reduction for Text Classification
 
+### 📄 Project Report
+[Download the full project report (PDF)](./MyReport.pdf)
+
+
 ## Project Overview
 This project develops a **semantic feature reduction pipeline** for text classification using **Word2Vec embeddings** and **graph-based clustering**. By grouping semantically similar words and combining them with traditional feature selection methods, it aims to improve **classification accuracy** and **computational efficiency** compared to traditional BoW and TF-IDF approaches.
 
