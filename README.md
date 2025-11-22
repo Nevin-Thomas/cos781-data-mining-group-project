@@ -17,9 +17,35 @@ This project develops a **semantic feature reduction pipeline** for text classif
 ---
 
 ## 📊 Data
-- Dataset: *TBD*  
-- Data Size: *TBD*  
-- Attributes: *TBD*
+**Dataset**: 
+
+This project uses a sampled subset of the Amazon Reviews 2023 dataset, a large-scale collection of customer product reviews released by the McAuley Lab. It spans multiple Amazon product categories and contains review text, star ratings, helpfulness votes, and product metadata.
+
+For this project, we focus specifically on the Beauty and Fashion categories. These categories provide a diverse range of product types and writing styles, making them ideal for evaluating text classification and embedding techniques.  
+
+**Data Size**: 
+
+To maintain computational efficiency while keeping the dataset representative, approximately 10,000 reviews per category were streamed using a JSONL streaming pipeline.
+
+After merging metadata, cleaning, and removing neutral ratings, the final labelled dataset contains:
+
+~8,000 – 15,000 reviews
+
+Binary sentiment labels (positive vs negative) derived from star ratings.
+
+The exact number may vary depending on preprocessing filters.
+
+**Attributes**: 
+
+| Attribute         | Description                                                                                                          |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **review**        | The raw customer review text describing the user’s experience with a product. This serves as the main textual input. |
+| **clean_text**    | Preprocessed version of the review (lowercased, punctuation removed, stopwords removed).                             |
+| **rating**        | Numerical star rating (1–5). Used to derive sentiment labels.                                                        |
+| **label**         | Sentiment class: **positive** (≥4 stars) and **negative** (≤2 stars). Neutral (3-star) reviews are removed.          |
+| **product_title** | Title of the product associated with the review. Provides context but is not used directly for modelling.            |
+| **parent_asin**   | Product identifier used for merging review data with metadata.                                                       |
+
 
 ---
 
