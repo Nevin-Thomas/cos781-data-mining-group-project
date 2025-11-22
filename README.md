@@ -52,12 +52,12 @@ By grouping semantically similar words and combining them with traditional featu
 
 ## 👥 Team Members
 
-| Member Name | Student Number | Role | Contact | Description |
-|--------------|----------------|------|----------|--------------|
-| *N Thomas* | *20435216* |  | *u20435216@tuks.co.za* | - |
-| *M Dukhanti* | *22617541* |  | *u22617541@tuks.co.za* | - |
-| *B Dlamini* | *21739120* |  | *u21739120@tuks.co.za* | - |
-| *N Cele* | *25717342* |  | *u25717342@tuks.co.za* | - |
+| Member Name | Student Number | Contact |
+|--------------|----------------|------|
+| *N Thomas* | *20435216* | *u20435216@tuks.co.za* | 
+| *M Dukhanti* | *22617541* | *u22617541@tuks.co.za* | 
+| *B Dlamini* | *21739120* | *u21739120@tuks.co.za* | 
+| *N Cele* | *25717342* | *u25717342@tuks.co.za* | 
 
 ---
 
